@@ -2,7 +2,7 @@ import random
 import numpy
 import heapq
 import string
-import itertools
+import time
 ## 
 # Generates random position for the 25 cities
 ##
@@ -76,39 +76,113 @@ def createUnweightedGrapth(graph):
 
 def dfs(graph, start, goal):
 	stack = [(start, [start])]
+	count = 1
 	while stack:
 		(vertex, path) = stack.pop()
 		for next in graph[vertex] - set(path):
 			if next == goal:
-				yield path + [next]
+				count = count + 1
+				return path + [next], count
 			else:
 				stack.append((next, path + [next]))
+				count = count + 1;
+	return None, count
 
 def bfs(graph, start, goal):
 	queue = [(start, [start])]
+	count = 1;
 	while queue:
 		(vertex, path) = queue.pop(0)
 		for next in graph[vertex] - set(path):
+
 			if next == goal:
-				yield path + [next]
+				count = count + 1
+				return path + [next], count
 			else:
 				queue.append((next, path + [next]))
+				count = count + 1;
+	return None, count
+				
 
-def dfs_for_id(route, depth):
-	return 0
 
-def id_dfs(puzzle, goal, get_moves):
-	return 0
+def id_dfs(graph, start, goal):
+	depth = 0
+	solution = None
+	curr = 1
+	totalCurr = 0;
+	while not solution:
+		if depth == len(graph):
+			break
+		solution, curr = dfs_depth(graph, start, goal, curr, depth)
+		depth = depth + 1
+		totalCurr = curr + totalCurr
+	return solution, totalCurr
+
+
+def dfs_depth(graph, start, goal, depth, curr, path=None):
+	if path != None:
+		if goal == path[-1]:
+			curr = curr + 1
+			return path, curr
+	if depth >= 0:
+		if path == None:
+			path = [start]
+		if goal == path[-1]:
+			return path, curr
+		for next in graph[start] - set(path):
+			route, curr = dfs_depth(graph, next, goal, depth-1, curr + 1, path + [next])
+			if route:
+				return route, curr
+	return None, curr
+
 
 def main():
-	mapValue = randomMapGeneration()
-	euclideanMap = euclideanMapModify(mapValue)
-	weightedGraph = pruneEuclideanMap(euclideanMap)
-	unWeightedGraph = createUnweightedGrapth(weightedGraph)
+	# mapValue = randomMapGeneration()
+	# euclideanMap = euclideanMapModify(mapValue)
+	# weightedGraph = pruneEuclideanMap(euclideanMap)
+	# unWeightedGraph = createUnweightedGrapth(weightedGraph)
+
+	# graph = {'A': set(['B', 'C']),
+ #         'B': set(['A', 'D', 'E']),
+ #         'C': set(['A', 'F']),
+ #         'D': set(['B']),
+ #         'E': set(['B', 'F']),
+ #         'F': set(['C', 'E'])}
+ 	
+ 	for i in range(100):
+		startPoint = 0
+		endPoint = 0
+		while startPoint == endPoint:
+			startPoint = chr(random.randint(0, 25) + ord('A')) 
+			endPoint = chr(random.randint(0, 25) + ord('A'))
+					
+		mapValue = randomMapGeneration()
+		euclideanMap = euclideanMapModify(mapValue)
+		weightedGraph = pruneEuclideanMap(euclideanMap)
+		unWeightedGraph = createUnweightedGrapth(weightedGraph)
+		startTime = time.time();
+		breadthFirstSearch, breadthFirstTimeComplexity = bfs(unWeightedGraph, startPoint, endPoint)
+		totalTime = time.time() - startTime;
+		print "Breadth First Search"
+		print breadthFirstSearch
+		print breadthFirstTimeComplexity
+		print totalTime
+		startTime = time.time();
+		depthFirstSearch, depthFirstSearchTimeComplexity = dfs(unWeightedGraph, startPoint, endPoint)
+		totalTime = time.time() - startTime;
+		print "Depth First Search"
+		print depthFirstSearch
+		print depthFirstSearchTimeComplexity
+		print totalTime
+		startTime = time.time();
+		iterativeDeeping, iterativeDeepingTimeComplexity = id_dfs(unWeightedGraph, startPoint, endPoint)
+		totalTime = time.time() - startTime;
+		print "Iterative Deeping"
+		print iterativeDeeping
+		print iterativeDeepingTimeComplexity
+		print totalTime
 
 
-	dfs(unWeightedGraph, 'A', 'B')
-	bfs(unWeightedGraph, 'A', 'B')
 
 if __name__ == '__main__':
 	main()
