@@ -94,7 +94,6 @@ def bfs(graph, start, goal):
 	while queue:
 		(vertex, path) = queue.pop(0)
 		for next in graph[vertex] - set(path):
-
 			if next == goal:
 				count = count + 1
 				return path + [next], count
