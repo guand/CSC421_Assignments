@@ -4,9 +4,10 @@ import heapq
 import string
 
 ## 
-# Generates random position for the 25 cities
+# Generates random position for the 26 cities
 ##
 def randomMapGeneration():
+	# randomly generate coordinates for 26 cities on a 100x100 matrix
 	random.seed()
 	while True:
 		randomCityMap = [(random.randint(0, 100), random.randint(0, 100)) for k in range(26)]
@@ -20,6 +21,8 @@ def randomMapGeneration():
 ##
 def euclideanMapModify(cityList):
 	euclideanMap = []
+	# generates euclidean distance from city to city, set distance of 0.0 to 100000.0 so that later it
+	# does not interfere with get the five smallest euclidean distance as it represents the distance from a city to itself
 	for i, first in enumerate(cityList):
 		euclideanDistanceCities = []
 		for j, second in enumerate(cityList):
@@ -49,26 +52,33 @@ def euclideanMapValues(cityList):
 ##
 def pruneEuclideanMap(euclideanList):
 	euclideanFinalPruneList = []
-	for i, first in enumerate(euclideanList):
+	for i in range(len(euclideanList)):
+		# creates list to store the 5 smallest euclidean distances for each city
 		euclideanPruneList = []
+		# finds and stores 5 smallest cities into prune list
 		for j in heapq.nsmallest(5, enumerate(euclideanList[i]), key=lambda x:x[1]):
 			euclideanPruneList.append(j)
+		# grab three random euclidean distance from prune list
 		cityPrune = random.sample(range(0, len(euclideanPruneList)), 3)
 		cityEuclideanList = []
+		# set the three distances as the cities edges
 		for k in cityPrune:
 			cityEuclideanList.append(euclideanPruneList[k])
 		euclideanFinalPruneList.append(cityEuclideanList)
-# make adjacency matrix so that we can remove undirected edges
+	# initialize euclidean matrix list
 	euclideanFinalMatrix = [[0] * len(euclideanFinalPruneList) for i in range(len(euclideanFinalPruneList))]
+	# reintroduce the three edges that was produced previously into the euclidean matrix
 	for i in range(len(euclideanFinalPruneList)):
 		for j in range(len(euclideanFinalPruneList[i])):
 			euclideanFinalMatrix[i][euclideanFinalPruneList[i][j][0]] = euclideanFinalPruneList[i][j][1]
+	# if there exist an directed edge from a->b create another edge from b->a to create an undirected graph
 	for i in range(len(euclideanFinalMatrix)):
 		for j in range(len(euclideanFinalMatrix[i])):
 			if((euclideanFinalMatrix[i][j] != euclideanFinalMatrix[j][i]) and euclideanFinalMatrix[i][j] != 0):
 				euclideanFinalMatrix[j][i] = euclideanFinalMatrix[i][j];
+	# create a final tuple list with only valid edge tuples for each city
 	euclideanFinalTupleList = []
-	for i, value in enumerate(euclideanFinalMatrix):
+	for i in range(len(euclideanFinalMatrix)):
 		euclideanTuples = []
 		for j, tupleValue in enumerate(euclideanFinalMatrix[i]):
 			if(tupleValue != 0):
@@ -79,10 +89,12 @@ def pruneEuclideanMap(euclideanList):
 
 ##
 # @param graph
-#
+# Create a dictionary for a unweighted graph with set tuples for DFS, BFS, and ID_DFS
 ##
 def createUnweightedSetGrapth(graph):
+	# create a dictonary for A-Z
 	d = dict.fromkeys(string.ascii_uppercase, 0)
+	# place set tuples in thier coordinating dictionary values
 	for i, a in enumerate(graph):
 		listSet = []
 		for j, b in enumerate(graph[i]):
@@ -90,8 +102,14 @@ def createUnweightedSetGrapth(graph):
 		d[chr(i + ord('A'))] = set(listSet)
 	return d
 
+##
+# @param graph
+# Create a dictionary for the graph with each edge that corresponds to each city, used for A* and Greedy Best First Search
+##
 def createUnweightedGrapth(graph):
+	# create a dictonary for A-Z
 	d = dict.fromkeys(string.ascii_uppercase, 0)
+	# place tuples in thier coordinating dictionary values
 	for i, a in enumerate(graph):
 		listGraph = []
 		for j, b in enumerate(graph[i]):
