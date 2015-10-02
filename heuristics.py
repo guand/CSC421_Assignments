@@ -9,7 +9,12 @@ def heuristicEuclidean(current, goal):
 	return distance
 
 def heuristicChebyshev(current, goal):
-	a = abs(-45)
+	currentX, currentY = current
+	goalX, goalY = goal
+	a = abs(currentX - goalX)
+	b = abs(currentY - goalY)
+	distance = (a + b) + (-1) * min(a, b)
+	return distance
 
 
 def greedyFirstSearch(graph, start, goal, heuristic):
@@ -66,29 +71,32 @@ def reconstructPath(previous, start, goal):
 	current = goal
 	path = [current]
 	while current != start:
-		current = previous[current]
+		if current in previous:
+			current = previous[current]
+		else:
+			return None
 		path.append(current)
 	path.reverse()
 	return path
 
-def main():
-	test_graph = Graph()
-	test_graph.edges = {'A': ['B', 'C'],
-         'B': ['A', 'D', 'E'],
-         'C': ['A', 'F'],
-         'D': ['B'],
-         'E': ['B', 'F'],
-         'F': ['C', 'E']}
+# def main():
+# 	test_graph = Graph()
+# 	test_graph.edges = {'A': ['B', 'C'],
+#          'B': ['A', 'D', 'E'],
+#          'C': ['A', 'F'],
+#          'D': ['B'],
+#          'E': ['B', 'F'],
+#          'F': ['C', 'E']}
 
-	test_graph.weights = {'A': (1,2), 'B': (2,3), 'C': (3,4), 'D': (4,4), 'E': (0,0), 'F': (3,1)}
+# 	test_graph.weights = {'A': (1,2), 'B': (2,3), 'C': (3,4), 'D': (4,4), 'E': (0,0), 'F': (3,1)}
 
-	previous, currentCost = aStarSearch(test_graph, 'A', 'F', 1)
+# 	previous, currentCost = aStarSearch(test_graph, 'A', 'F', 2)
  
-	print reconstructPath(previous, 'A', 'F')
+# 	print reconstructPath(previous, 'A', 'F')
 
-	previous = greedyFirstSearch(test_graph, 'A', 'F', 1)
-	print reconstructPath(previous, 'A', 'F')
-	# print heuristic2()
+# 	previous = greedyFirstSearch(test_graph, 'A', 'F', 2)
+# 	print reconstructPath(previous, 'A', 'F')
+# 	heuristicChebyshev((1,2), (3,4))
 
-if __name__ == '__main__':
-	main()
+# if __name__ == '__main__':
+# 	main()
