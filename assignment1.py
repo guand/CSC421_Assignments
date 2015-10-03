@@ -17,28 +17,34 @@ def main():
  	greedyEuclideanList = []
  	greedyChebyshevList = []
  	startTime = time.time();
+ 	# generate 100 valid maps
 	while incrementor < 100:
 		startPoint = 0
 		endPoint = 0
+		# generate unique start and goal points
 		while startPoint == endPoint:
 			startPoint = chr(random.randint(0, 25) + ord('A')) 
 			endPoint = chr(random.randint(0, 25) + ord('A'))
+		# generate graph and eliminate edges based on shortest euclidean distances
 		mapValue = graphgeneration.randomMapGeneration()
 		euclideanMap = graphgeneration.euclideanMapModify(mapValue)
 		weightedGraph = graphgeneration.pruneEuclideanMap(euclideanMap)
 		weightedGraphMapping = graphgeneration.euclideanMapValues(mapValue)
 		unWeightedGraph = graphgeneration.createUnweightedGrapth(weightedGraph)
-
+		# create map for heuristic use
 		graph = Graph()
 		graph.edges = unWeightedGraph
 		graph.weights = weightedGraphMapping
 
 		previous, currentCost, aStarTimeComplexity, aStarSpaceComplexity = heuristics.aStarSearch(graph, startPoint, endPoint, 1)
 		path = heuristics.reconstructPath(previous, startPoint, endPoint)
+		# check if path is invalid
 		if path == None:
 			misses = misses + 1 
 			continue
+		# place results in list to use later
 		aStarEuclideanList.append([path, aStarTimeComplexity, aStarSpaceComplexity])
+		previous, currentCost, aStarTimeComplexity, aStarSpaceComplexity = heuristics.aStarSearch(graph, startPoint, endPoint, 2)
 		path = heuristics.reconstructPath(previous, startPoint, endPoint)
 		aStarChebyshevList.append([path, aStarTimeComplexity, aStarSpaceComplexity])
 		previous, greedyTimeComplexity, greedySpaceComplexity = heuristics.greedyFirstSearch(graph, startPoint, endPoint, 1)
@@ -49,6 +55,7 @@ def main():
 		greedyChebyshevList.append([path, greedyTimeComplexity, greedySpaceComplexity])
 		incrementor = incrementor + 1
 	totalTime = time.time() - startTime;
+	# calculate execution time, invalid paths, average space and time complexity for A* and Greedy
 	print "Total Execution Time"
 	print totalTime
 	print "Total Number of Invalid Paths"
@@ -117,19 +124,23 @@ def main():
  	iterativeDeepeningList = []
  	misses = 0
  	incrementor = 0
+ 	# find execution time
  	startTime = time.time();
+ 	# generate 100 valid maps
  	while incrementor < 100:
 		startPoint = 0
 		endPoint = 0
+		# create unique start and goal points
 		while startPoint == endPoint:
 			startPoint = chr(random.randint(0, 25) + ord('A')) 
 			endPoint = chr(random.randint(0, 25) + ord('A'))
-					
+		# generate random map and remove edges based on shortest euclidean distance		
 		mapValue = graphgeneration.randomMapGeneration()
 		euclideanMap = graphgeneration.euclideanMapModify(mapValue)
 		weightedGraph = graphgeneration.pruneEuclideanMap(euclideanMap)
 		unWeightedGraph = graphgeneration.createUnweightedSetGrapth(weightedGraph)
 		breadthFirstSearch, breadthFirstTimeComplexity, breadthFirstSearchSpaceComplexity = traverse.bfs(unWeightedGraph, startPoint, endPoint)
+		# repeat map generation if invalid map is generated
 		if breadthFirstSearch == None:
 			misses = misses + 1 
 			continue
@@ -140,6 +151,7 @@ def main():
 		iterativeDeepeningList.append([iterativeDeeping, iterativeDeepingTimeComplexity, iterativeDeepingSpaceComplexity])
 		incrementor = incrementor + 1
 	totalTime = time.time() - startTime;
+	# get execution time, total invalid maps, average space and time complexity for BFS, DFS, and IDDFS
 	print "Total Execution Time"
 	print totalTime
 	print "Total Number of Invalid Paths"
