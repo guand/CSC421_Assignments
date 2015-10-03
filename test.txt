@@ -1,0 +1,253 @@
+Total Execution Time
+1.36113214493
+Total Number of Invalid Paths
+0
+Average A* Euclidean Time Complexity
+19
+Average A* Euclidean Space Complexity
+9
+Average A* Chebyshev Time Complexity
+19
+Average A* Chebyshev Space Complexity
+9
+Average Greedy Euclidean Time Complexity
+16
+Average Greedy Euclidean Space Complexity
+9
+Average Greedy Chebyshev Time Complexity
+16
+Average Greedy Chebyshev Space Complexity
+9
+A* Euclidean Heuristic
+Path:  ['H', 'U', 'B']
+Time Complexity:  20
+Space Complexity:  11
+Path:  ['Z', 'E', 'M']
+Time Complexity:  7
+Space Complexity:  5
+Path:  ['I', 'X', 'Y', 'V', 'H', 'O']
+Time Complexity:  30
+Space Complexity:  13
+Path:  ['J', 'S', 'Q', 'T']
+Time Complexity:  22
+Space Complexity:  12
+Path:  ['L', 'Q', 'H', 'N', 'D']
+Time Complexity:  27
+Space Complexity:  13
+Path:  ['B', 'G', 'U']
+Time Complexity:  19
+Space Complexity:  11
+Path:  ['T', 'V', 'Z', 'H', 'G']
+Time Complexity:  28
+Space Complexity:  15
+Path:  ['H', 'K', 'M', 'W', 'D']
+Time Complexity:  26
+Space Complexity:  12
+Path:  ['G', 'O']
+Time Complexity:  7
+Space Complexity:  5
+Path:  ['S', 'J', 'X', 'T']
+Time Complexity:  20
+Space Complexity:  11
+A* Chebyshev Heuristic
+Path:  ['H', 'U', 'B']
+Time Complexity:  20
+Space Complexity:  11
+Path:  ['Z', 'E', 'M']
+Time Complexity:  7
+Space Complexity:  5
+Path:  ['I', 'X', 'Y', 'V', 'H', 'O']
+Time Complexity:  30
+Space Complexity:  13
+Path:  ['J', 'S', 'Q', 'T']
+Time Complexity:  22
+Space Complexity:  12
+Path:  ['L', 'Q', 'H', 'N', 'D']
+Time Complexity:  27
+Space Complexity:  13
+Path:  ['B', 'G', 'U']
+Time Complexity:  19
+Space Complexity:  11
+Path:  ['T', 'V', 'Z', 'H', 'G']
+Time Complexity:  28
+Space Complexity:  15
+Path:  ['H', 'K', 'M', 'W', 'D']
+Time Complexity:  26
+Space Complexity:  12
+Path:  ['G', 'O']
+Time Complexity:  7
+Space Complexity:  5
+Path:  ['S', 'J', 'X', 'T']
+Time Complexity:  20
+Space Complexity:  11
+Greedy Euclidean Heuristic
+Path:  ['H', 'D', 'E', 'Y', 'I', 'J', 'R', 'C', 'F', 'B']
+Time Complexity:  25
+Space Complexity:  13
+Path:  ['Z', 'A', 'L', 'P', 'D', 'M']
+Time Complexity:  21
+Space Complexity:  13
+Path:  ['I', 'W', 'N', 'V', 'H', 'O']
+Time Complexity:  22
+Space Complexity:  12
+Path:  ['J', 'B', 'D', 'F', 'Q', 'T']
+Time Complexity:  21
+Space Complexity:  13
+Path:  ['L', 'E', 'B', 'V', 'N', 'D']
+Time Complexity:  16
+Space Complexity:  10
+Path:  ['B', 'G', 'U']
+Time Complexity:  19
+Space Complexity:  11
+Path:  ['T', 'Q', 'Z', 'H', 'G']
+Time Complexity:  21
+Space Complexity:  13
+Path:  ['H', 'K', 'M', 'A', 'P', 'D']
+Time Complexity:  23
+Space Complexity:  14
+Path:  ['G', 'O']
+Time Complexity:  5
+Space Complexity:  4
+Path:  ['S', 'F', 'X', 'T']
+Time Complexity:  18
+Space Complexity:  11
+Greedy Chebyshev Heuristic
+Path:  ['H', 'D', 'E', 'Y', 'I', 'J', 'R', 'C', 'F', 'B']
+Time Complexity:  25
+Space Complexity:  12
+Path:  ['Z', 'A', 'L', 'P', 'D', 'M']
+Time Complexity:  19
+Space Complexity:  13
+Path:  ['I', 'W', 'N', 'T', 'C', 'O']
+Time Complexity:  22
+Space Complexity:  13
+Path:  ['J', 'B', 'D', 'F', 'Q', 'T']
+Time Complexity:  21
+Space Complexity:  13
+Path:  ['L', 'E', 'B', 'V', 'N', 'D']
+Time Complexity:  16
+Space Complexity:  10
+Path:  ['B', 'G', 'U']
+Time Complexity:  19
+Space Complexity:  11
+Path:  ['T', 'Q', 'Z', 'H', 'G']
+Time Complexity:  22
+Space Complexity:  13
+Path:  ['H', 'K', 'M', 'A', 'P', 'D']
+Time Complexity:  23
+Space Complexity:  14
+Path:  ['G', 'O']
+Time Complexity:  5
+Space Complexity:  4
+Path:  ['S', 'F', 'X', 'T']
+Time Complexity:  18
+Space Complexity:  11
+Total Execution Time
+1.27891802788
+Total Number of Invalid Paths
+1
+Average BFS Time Complexity
+123
+Average BFS Space Complexity
+81
+Average DFS Time Complexity
+110
+Average DFS Space Complexity
+16
+Average IDDFS Time Complexity
+326
+Average IDDFS Space Complexity
+8
+Breadth First Search
+Path:  ['N', 'D', 'Z']
+Time Complexity:  16
+Space Complexity:  11
+Path:  ['I', 'E', 'P', 'A']
+Time Complexity:  25
+Space Complexity:  18
+Path:  ['Q', 'G', 'M']
+Time Complexity:  9
+Space Complexity:  5
+Path:  ['E', 'T', 'B', 'K', 'V']
+Time Complexity:  120
+Space Complexity:  80
+Path:  ['J', 'D', 'S']
+Time Complexity:  15
+Space Complexity:  10
+Path:  ['U', 'G', 'H', 'K']
+Time Complexity:  54
+Space Complexity:  38
+Path:  ['L', 'C', 'V', 'H', 'E']
+Time Complexity:  124
+Space Complexity:  83
+Path:  ['Q', 'B', 'G', 'A', 'Y', 'P']
+Time Complexity:  298
+Space Complexity:  163
+Path:  ['Y', 'C', 'X', 'N']
+Time Complexity:  21
+Space Complexity:  14
+Path:  ['W', 'H', 'D', 'L', 'N']
+Time Complexity:  104
+Space Complexity:  69
+Depth First Search
+Path:  ['N', 'F', 'O', 'J', 'S', 'X', 'G', 'Q', 'E', 'P', 'U', 'T', 'M', 'L', 'Z']
+Time Complexity:  40
+Space Complexity:  25
+Path:  ['I', 'F', 'Z', 'D', 'T', 'M', 'R', 'P', 'A']
+Time Complexity:  20
+Space Complexity:  12
+Path:  ['Q', 'W', 'G', 'M']
+Time Complexity:  12
+Space Complexity:  7
+Path:  ['E', 'N', 'M', 'W', 'O', 'P', 'T', 'B', 'L', 'V']
+Time Complexity:  31
+Space Complexity:  18
+Path:  ['J', 'F', 'D', 'S']
+Time Complexity:  12
+Space Complexity:  7
+Path:  ['U', 'G', 'E', 'Z', 'K']
+Time Complexity:  12
+Space Complexity:  8
+Path:  ['L', 'T', 'M', 'N', 'W', 'J', 'V', 'R', 'S', 'E']
+Time Complexity:  26
+Space Complexity:  16
+Path:  ['Q', 'L', 'N', 'E', 'T', 'S', 'I', 'F', 'M', 'K', 'J', 'C', 'W', 'P']
+Time Complexity:  34
+Space Complexity:  20
+Path:  ['Y', 'L', 'O', 'F', 'I', 'Z', 'U', 'K', 'E', 'V', 'G', 'M', 'J', 'D', 'N']
+Time Complexity:  47
+Space Complexity:  31
+Path:  ['W', 'E', 'U', 'T', 'F', 'O', 'Z', 'P', 'G', 'C', 'N']
+Time Complexity:  40
+Space Complexity:  26
+Iterative Deepening First Search
+Path:  ['N', 'D', 'Z']
+Time Complexity:  24
+Space Complexity:  6
+Path:  ['I', 'E', 'P', 'A']
+Time Complexity:  67
+Space Complexity:  4
+Path:  ['Q', 'G', 'M']
+Time Complexity:  16
+Space Complexity:  5
+Path:  ['E', 'T', 'B', 'K', 'V']
+Time Complexity:  289
+Space Complexity:  11
+Path:  ['J', 'D', 'S']
+Time Complexity:  22
+Space Complexity:  6
+Path:  ['U', 'G', 'H', 'K']
+Time Complexity:  95
+Space Complexity:  8
+Path:  ['L', 'C', 'V', 'H', 'E']
+Time Complexity:  324
+Space Complexity:  11
+Path:  ['Q', 'B', 'G', 'A', 'Y', 'P']
+Time Complexity:  999
+Space Complexity:  9
+Path:  ['Y', 'C', 'X', 'N']
+Time Complexity:  51
+Space Complexity:  6
+Path:  ['W', 'H', 'D', 'L', 'N']
+Time Complexity:  298
+Space Complexity:  9

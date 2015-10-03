@@ -1,0 +1,1500 @@
+Breadth First Search
+['H', 'Y', 'V']
+23
+14
+2.40802764893e-05
+Depth First Search
+['H', 'Y', 'V']
+10
+5
+9.05990600586e-06
+Iterative Deeping
+['H', 'Y', 'V']
+34
+10
+3.09944152832e-05
+Breadth First Search
+['G', 'X', 'Y']
+27
+21
+2.71797180176e-05
+Depth First Search
+['G', 'Z', 'X', 'Y']
+14
+11
+1.31130218506e-05
+Iterative Deeping
+['G', 'X', 'Y']
+39
+7
+3.50475311279e-05
+Breadth First Search
+['V', 'C', 'K']
+9
+5
+1.09672546387e-05
+Depth First Search
+['V', 'F', 'G', 'D', 'Z', 'P', 'U', 'R', 'X', 'W', 'I', 'A', 'N', 'C', 'K']
+56
+28
+7.00950622559e-05
+Iterative Deeping
+['V', 'C', 'K']
+16
+5
+1.50203704834e-05
+Breadth First Search
+['K', 'M', 'G']
+15
+10
+1.71661376953e-05
+Depth First Search
+['K', 'D', 'M', 'G']
+10
+7
+1.00135803223e-05
+Iterative Deeping
+['K', 'M', 'G']
+23
+6
+2.19345092773e-05
+Breadth First Search
+['M', 'G', 'X', 'I', 'P']
+101
+66
+9.60826873779e-05
+Depth First Search
+['M', 'G', 'D', 'N', 'R', 'Y', 'Z', 'F', 'P']
+25
+14
+2.59876251221e-05
+Iterative Deeping
+['M', 'G', 'X', 'I', 'P']
+239
+8
+0.000159025192261
+Breadth First Search
+['P', 'B', 'A', 'I', 'W', 'R', 'E']
+1396
+931
+0.00137901306152
+Depth First Search
+['P', 'S', 'N', 'G', 'V', 'J', 'D', 'Z', 'B', 'Q', 'C', 'K', 'L', 'O', 'X', 'W', 'F', 'E']
+52
+32
+5.57899475098e-05
+Iterative Deeping
+['P', 'B', 'A', 'I', 'W', 'R', 'E']
+4891
+12
+0.00241184234619
+Breadth First Search
+['I', 'Q', 'O', 'N']
+45
+32
+4.19616699219e-05
+Depth First Search
+['I', 'Z', 'X', 'T', 'W', 'F', 'N']
+28
+18
+2.40802764893e-05
+Iterative Deeping
+['I', 'Q', 'O', 'N']
+102
+8
+6.00814819336e-05
+Breadth First Search
+['Z', 'D', 'B', 'Y', 'P', 'V']
+148
+94
+0.000139951705933
+Depth First Search
+['Z', 'T', 'N', 'O', 'U', 'F', 'Y', 'P', 'V']
+35
+20
+3.19480895996e-05
+Iterative Deeping
+['Z', 'D', 'B', 'Y', 'P', 'V']
+460
+19
+0.000214099884033
+Breadth First Search
+['I', 'K']
+3
+1
+9.77516174316e-06
+Depth First Search
+['I', 'K']
+3
+1
+5.96046447754e-06
+Iterative Deeping
+['I', 'K']
+3
+3
+1.00135803223e-05
+Breadth First Search
+['K', 'Q', 'N', 'E']
+30
+21
+2.88486480713e-05
+Depth First Search
+['K', 'L', 'N', 'E']
+12
+7
+1.09672546387e-05
+Iterative Deeping
+['K', 'Q', 'N', 'E']
+75
+6
+4.19616699219e-05
+Breadth First Search
+['V', 'O', 'B']
+15
+8
+1.50203704834e-05
+Depth First Search
+['V', 'F', 'B']
+7
+4
+6.91413879395e-06
+Iterative Deeping
+['V', 'O', 'B']
+23
+8
+2.19345092773e-05
+Breadth First Search
+['C', 'H']
+2
+1
+5.96046447754e-06
+Depth First Search
+['C', 'H']
+2
+1
+2.86102294922e-06
+Iterative Deeping
+['C', 'H']
+2
+2
+5.96046447754e-06
+Breadth First Search
+['O', 'W', 'X', 'T']
+50
+33
+4.79221343994e-05
+Depth First Search
+['O', 'W', 'F', 'Y', 'G', 'L', 'V', 'E', 'D', 'U', 'S', 'C', 'N', 'P', 'B', 'M', 'T']
+48
+29
+5.10215759277e-05
+Iterative Deeping
+['O', 'W', 'X', 'T']
+89
+10
+7.00950622559e-05
+Breadth First Search
+['X', 'B', 'I']
+12
+9
+1.31130218506e-05
+Depth First Search
+['X', 'T', 'D', 'W', 'O', 'G', 'L', 'U', 'Z', 'R', 'N', 'I']
+34
+22
+3.40938568115e-05
+Iterative Deeping
+['X', 'B', 'I']
+20
+4
+1.81198120117e-05
+Breadth First Search
+['N', 'O', 'S', 'J', 'M']
+222
+150
+0.000198125839233
+Depth First Search
+['N', 'Z', 'U', 'L', 'V', 'D', 'W', 'T', 'G', 'Q', 'K', 'M']
+39
+25
+3.60012054443e-05
+Iterative Deeping
+['N', 'O', 'S', 'J', 'M']
+525
+10
+0.000306129455566
+Breadth First Search
+['L', 'H', 'Z']
+10
+3
+1.19209289551e-05
+Depth First Search
+['L', 'G', 'Z']
+11
+3
+9.05990600586e-06
+Iterative Deeping
+['L', 'H', 'Z']
+15
+8
+1.59740447998e-05
+Breadth First Search
+['L', 'Z', 'V']
+13
+8
+1.50203704834e-05
+Depth First Search
+['L', 'M', 'U', 'Z', 'V']
+14
+10
+1.4066696167e-05
+Iterative Deeping
+['L', 'Z', 'V']
+19
+6
+1.97887420654e-05
+Breadth First Search
+['I', 'P', 'U']
+9
+4
+1.00135803223e-05
+Depth First Search
+['I', 'X', 'M', 'V', 'N', 'F', 'L', 'Z', 'O', 'U']
+28
+16
+2.69412994385e-05
+Iterative Deeping
+['I', 'P', 'U']
+15
+6
+1.4066696167e-05
+Breadth First Search
+['Y', 'H', 'S', 'C']
+44
+34
+4.00543212891e-05
+Depth First Search
+['Y', 'G', 'V', 'X', 'D', 'H', 'Q', 'K', 'N', 'S', 'C']
+35
+23
+3.60012054443e-05
+Iterative Deeping
+['Y', 'H', 'S', 'C']
+88
+8
+5.79357147217e-05
+Breadth First Search
+['B', 'X', 'L', 'T', 'Y', 'K', 'V']
+721
+467
+0.000668048858643
+Depth First Search
+['B', 'W', 'L', 'N', 'T', 'S', 'E', 'H', 'O', 'F', 'V']
+33
+20
+3.21865081787e-05
+Iterative Deeping
+['B', 'X', 'L', 'T', 'Y', 'K', 'V']
+2283
+16
+0.00108981132507
+Breadth First Search
+['Q', 'C', 'G', 'L']
+36
+25
+3.38554382324e-05
+Depth First Search
+['Q', 'E', 'N', 'T', 'M', 'O', 'D', 'R', 'L']
+30
+20
+2.71797180176e-05
+Iterative Deeping
+['Q', 'C', 'G', 'L']
+67
+7
+4.91142272949e-05
+Breadth First Search
+['C', 'M', 'Q', 'E']
+78
+59
+6.50882720947e-05
+Depth First Search
+['C', 'X', 'O', 'F', 'L', 'G', 'M', 'N', 'W', 'T', 'D', 'B', 'V', 'E']
+47
+29
+4.79221343994e-05
+Iterative Deeping
+['C', 'M', 'Q', 'E']
+131
+10
+9.58442687988e-05
+Breadth First Search
+['P', 'L', 'I', 'K', 'H']
+234
+170
+0.000194787979126
+Depth First Search
+['P', 'V', 'O', 'T', 'F', 'W', 'G', 'N', 'H']
+31
+23
+2.8133392334e-05
+Iterative Deeping
+['P', 'L', 'I', 'K', 'H']
+555
+8
+0.000292062759399
+Breadth First Search
+['E', 'S', 'A']
+10
+7
+1.38282775879e-05
+Depth First Search
+['E', 'T', 'A']
+6
+4
+7.15255737305e-06
+Iterative Deeping
+['E', 'S', 'A']
+17
+4
+1.8835067749e-05
+Breadth First Search
+['X', 'A', 'H', 'N']
+19
+11
+2.09808349609e-05
+Depth First Search
+['X', 'W', 'G', 'T', 'P', 'R', 'N']
+20
+11
+2.09808349609e-05
+Iterative Deeping
+['X', 'A', 'H', 'N']
+46
+7
+3.60012054443e-05
+Breadth First Search
+['B', 'J', 'H']
+6
+4
+8.82148742676e-06
+Depth First Search
+['B', 'W', 'L', 'D', 'Y', 'H']
+18
+12
+1.69277191162e-05
+Iterative Deeping
+['B', 'J', 'H']
+12
+3
+2.38418579102e-05
+Breadth First Search
+['J', 'H', 'I']
+6
+4
+9.05990600586e-06
+Depth First Search
+['J', 'X', 'I']
+7
+4
+6.91413879395e-06
+Iterative Deeping
+['J', 'H', 'I']
+12
+3
+1.21593475342e-05
+Breadth First Search
+['W', 'T', 'K', 'J']
+33
+24
+3.09944152832e-05
+Depth First Search
+['W', 'F', 'O', 'T', 'N', 'Z', 'R', 'P', 'C', 'D', 'J']
+60
+30
+7.70092010498e-05
+Iterative Deeping
+['W', 'T', 'K', 'J']
+67
+6
+4.6968460083e-05
+Breadth First Search
+['O', 'E', 'T', 'H', 'F']
+139
+99
+0.000119924545288
+Depth First Search
+['O', 'W', 'E', 'G', 'T', 'P', 'C', 'X', 'Y', 'M', 'V', 'N', 'L', 'F']
+44
+28
+4.38690185547e-05
+Iterative Deeping
+['O', 'E', 'T', 'H', 'F']
+277
+13
+0.000182867050171
+Breadth First Search
+['P', 'Q', 'C', 'J']
+31
+21
+2.98023223877e-05
+Depth First Search
+['P', 'Y', 'H', 'U', 'K', 'T', 'O', 'R', 'J']
+29
+18
+2.78949737549e-05
+Iterative Deeping
+['P', 'Q', 'C', 'J']
+68
+8
+4.29153442383e-05
+Breadth First Search
+['G', 'H', 'E', 'D']
+82
+62
+7.00950622559e-05
+Depth First Search
+['G', 'W', 'Z', 'L', 'T', 'D']
+21
+13
+1.78813934326e-05
+Iterative Deeping
+['G', 'H', 'E', 'D']
+153
+8
+0.000102043151855
+Breadth First Search
+['R', 'C', 'K', 'B']
+31
+21
+2.8133392334e-05
+Depth First Search
+['R', 'O', 'W', 'V', 'F', 'N', 'P', 'L', 'B']
+29
+16
+2.90870666504e-05
+Iterative Deeping
+['R', 'C', 'K', 'B']
+69
+8
+4.2200088501e-05
+Breadth First Search
+['D', 'Y', 'B', 'A', 'X']
+62
+41
+6.103515625e-05
+Depth First Search
+['D', 'F', 'O', 'U', 'V', 'G', 'X']
+20
+14
+1.90734863281e-05
+Iterative Deeping
+['D', 'Y', 'B', 'A', 'X']
+192
+6
+9.51290130615e-05
+Breadth First Search
+['F', 'V']
+5
+1
+5.96046447754e-06
+Depth First Search
+['F', 'V']
+5
+1
+5.00679016113e-06
+Iterative Deeping
+['F', 'V']
+5
+5
+8.10623168945e-06
+Breadth First Search
+['S', 'Q', 'B', 'H', 'Z']
+130
+94
+0.000113964080811
+Depth First Search
+['S', 'O', 'V', 'X', 'W', 'F', 'G', 'Z']
+33
+20
+2.90870666504e-05
+Iterative Deeping
+['S', 'Q', 'B', 'H', 'Z']
+329
+11
+0.000170946121216
+Breadth First Search
+['O', 'I', 'J']
+6
+4
+8.82148742676e-06
+Depth First Search
+['O', 'V', 'J']
+7
+4
+6.19888305664e-06
+Iterative Deeping
+['O', 'I', 'J']
+12
+3
+1.19209289551e-05
+Breadth First Search
+['Z', 'S', 'J', 'Q', 'N']
+55
+37
+4.88758087158e-05
+Depth First Search
+['Z', 'T', 'L', 'G', 'J', 'F', 'O', 'H', 'R', 'Y', 'Q', 'N']
+31
+18
+3.40938568115e-05
+Iterative Deeping
+['Z', 'S', 'J', 'Q', 'N']
+162
+8
+7.70092010498e-05
+Breadth First Search
+['M', 'B', 'Q', 'Z']
+38
+28
+3.40938568115e-05
+Depth First Search
+['M', 'W', 'O', 'Y', 'N', 'P', 'G', 'D', 'F', 'U', 'J', 'Z']
+41
+28
+3.88622283936e-05
+Iterative Deeping
+['M', 'B', 'Q', 'Z']
+98
+5
+5.00679016113e-05
+Breadth First Search
+['D', 'E', 'R', 'K', 'U', 'F']
+313
+195
+0.000293970108032
+Depth First Search
+['D', 'T', 'G', 'S', 'V', 'X', 'O', 'L', 'B', 'N', 'E', 'Z', 'R', 'K', 'W', 'F']
+45
+28
+4.79221343994e-05
+Iterative Deeping
+['D', 'E', 'R', 'K', 'U', 'F']
+974
+11
+0.000480890274048
+Breadth First Search
+['D', 'X', 'A']
+5
+3
+7.86781311035e-06
+Depth First Search
+['D', 'O', 'L', 'W', 'F', 'Y', 'V', 'N', 'T', 'G', 'C', 'A']
+57
+29
+7.82012939453e-05
+Iterative Deeping
+['D', 'X', 'A']
+10
+3
+1.19209289551e-05
+Breadth First Search
+['V', 'F', 'N']
+18
+9
+2.19345092773e-05
+Depth First Search
+['V', 'F', 'N']
+10
+4
+1.00135803223e-05
+Iterative Deeping
+['V', 'F', 'N']
+27
+10
+2.69412994385e-05
+Breadth First Search
+['Q', 'D', 'E', 'B', 'I']
+60
+43
+9.67979431152e-05
+Depth First Search
+['Q', 'V', 'T', 'E', 'Z', 'L', 'N', 'I']
+26
+18
+3.31401824951e-05
+Iterative Deeping
+['Q', 'D', 'E', 'B', 'I']
+161
+7
+0.00016188621521
+Breadth First Search
+['B', 'A', 'P', 'D']
+36
+26
+3.40938568115e-05
+Depth First Search
+['B', 'S', 'M', 'N', 'W', 'X', 'D']
+18
+11
+1.81198120117e-05
+Iterative Deeping
+['B', 'A', 'P', 'D']
+84
+7
+4.6968460083e-05
+Breadth First Search
+['T', 'E', 'A', 'G', 'B', 'P', 'W']
+942
+575
+0.00102782249451
+Depth First Search
+['T', 'V', 'O', 'F', 'D', 'E', 'R', 'C', 'G', 'S', 'Z', 'B', 'N', 'W']
+40
+24
+4.6968460083e-05
+Iterative Deeping
+['T', 'E', 'A', 'G', 'B', 'P', 'W']
+3051
+14
+0.00167298316956
+Breadth First Search
+['O', 'H', 'W']
+7
+3
+1.31130218506e-05
+Depth First Search
+['O', 'V', 'X', 'G', 'Q', 'U', 'K', 'I', 'N', 'S', 'E', 'Z', 'B', 'F', 'W']
+41
+25
+4.38690185547e-05
+Iterative Deeping
+['O', 'H', 'W']
+12
+5
+1.50203704834e-05
+Breadth First Search
+['U', 'C', 'X']
+13
+9
+1.90734863281e-05
+Depth First Search
+['U', 'G', 'J', 'X']
+11
+8
+1.28746032715e-05
+Iterative Deeping
+['U', 'C', 'X']
+21
+5
+2.28881835938e-05
+Breadth First Search
+['R', 'A', 'H', 'U', 'J', 'Q', 'Y', 'T', 'X']
+3840
+2465
+0.00691294670105
+Depth First Search
+['R', 'L', 'Z', 'D', 'K', 'C', 'F', 'W', 'N', 'P', 'E', 'U', 'J', 'Q', 'G', 'T', 'X']
+48
+28
+6.69956207275e-05
+Iterative Deeping
+['R', 'A', 'H', 'U', 'J', 'Q', 'Y', 'T', 'X']
+14968
+14
+0.00759601593018
+Breadth First Search
+['Y', 'B', 'S', 'J']
+33
+24
+3.48091125488e-05
+Depth First Search
+['Y', 'Z', 'V', 'B', 'O', 'T', 'S', 'J']
+41
+18
+5.29289245605e-05
+Iterative Deeping
+['Y', 'B', 'S', 'J']
+89
+4
+4.79221343994e-05
+Breadth First Search
+['K', 'S', 'X', 'W']
+23
+15
+2.78949737549e-05
+Depth First Search
+['K', 'T', 'F', 'J', 'M', 'S', 'X', 'W']
+20
+11
+2.50339508057e-05
+Iterative Deeping
+['K', 'S', 'X', 'W']
+58
+6
+4.19616699219e-05
+Breadth First Search
+['Q', 'P', 'A', 'R']
+26
+17
+2.78949737549e-05
+Depth First Search
+['Q', 'L', 'K', 'V', 'O', 'E', 'S', 'G', 'Z', 'B', 'R']
+35
+23
+3.48091125488e-05
+Iterative Deeping
+['Q', 'P', 'A', 'R']
+63
+7
+3.88622283936e-05
+Breadth First Search
+['A', 'M', 'L', 'O']
+47
+34
+4.79221343994e-05
+Depth First Search
+['A', 'D', 'F', 'W', 'N', 'L', 'O']
+30
+20
+2.69412994385e-05
+Iterative Deeping
+['A', 'M', 'L', 'O']
+85
+10
+7.29560852051e-05
+Breadth First Search
+['L', 'T', 'R']
+18
+8
+2.121925354e-05
+Depth First Search
+['L', 'N', 'T', 'R']
+16
+8
+1.31130218506e-05
+Iterative Deeping
+['L', 'T', 'R']
+26
+11
+2.59876251221e-05
+Breadth First Search
+['M', 'Q', 'V']
+8
+4
+1.4066696167e-05
+Depth First Search
+['M', 'T', 'V']
+8
+4
+7.86781311035e-06
+Iterative Deeping
+['M', 'Q', 'V']
+14
+5
+1.69277191162e-05
+Breadth First Search
+['R', 'O', 'J']
+25
+19
+2.69412994385e-05
+Depth First Search
+['R', 'Z', 'L', 'F', 'O', 'J']
+18
+13
+1.59740447998e-05
+Iterative Deeping
+['R', 'O', 'J']
+38
+7
+3.40938568115e-05
+Breadth First Search
+['J', 'A', 'Q']
+10
+5
+1.50203704834e-05
+Depth First Search
+['J', 'W', 'Q']
+8
+5
+8.10623168945e-06
+Iterative Deeping
+['J', 'A', 'Q']
+17
+6
+1.71661376953e-05
+Breadth First Search
+['P', 'A', 'X', 'C']
+27
+19
+5.79357147217e-05
+Depth First Search
+['P', 'Y', 'W', 'F', 'B', 'M', 'L', 'S', 'K', 'O', 'R', 'H', 'D', 'N', 'V', 'C']
+41
+24
+9.70363616943e-05
+Iterative Deeping
+['P', 'A', 'X', 'C']
+74
+4
+5.91278076172e-05
+Breadth First Search
+['F', 'Q', 'O', 'Y', 'H', 'U']
+413
+307
+0.000353097915649
+Depth First Search
+['F', 'E', 'Z', 'D', 'W', 'T', 'X', 'O', 'G', 'R', 'S', 'U']
+40
+27
+3.91006469727e-05
+Iterative Deeping
+['F', 'Q', 'O', 'Y', 'H', 'U']
+1031
+15
+0.000520944595337
+Breadth First Search
+['X', 'A']
+2
+1
+5.00679016113e-06
+Depth First Search
+['X', 'A']
+2
+1
+3.09944152832e-06
+Iterative Deeping
+['X', 'A']
+2
+2
+7.15255737305e-06
+Breadth First Search
+['L', 'I']
+2
+1
+5.00679016113e-06
+Depth First Search
+['L', 'I']
+2
+1
+2.86102294922e-06
+Iterative Deeping
+['L', 'I']
+2
+2
+6.19888305664e-06
+Breadth First Search
+['G', 'X']
+9
+1
+9.05990600586e-06
+Depth First Search
+['G', 'X']
+9
+1
+6.91413879395e-06
+Iterative Deeping
+['G', 'X']
+9
+9
+1.19209289551e-05
+Breadth First Search
+['G', 'H', 'I', 'S', 'B']
+323
+213
+0.000294923782349
+Depth First Search
+['G', 'N', 'F', 'D', 'A', 'V', 'C', 'L', 'K', 'T', 'B']
+32
+20
+3.19480895996e-05
+Iterative Deeping
+['G', 'H', 'I', 'S', 'B']
+714
+16
+0.000449180603027
+Breadth First Search
+['U', 'M']
+5
+1
+6.91413879395e-06
+Depth First Search
+['U', 'M']
+5
+1
+5.00679016113e-06
+Iterative Deeping
+['U', 'M']
+5
+5
+9.05990600586e-06
+Breadth First Search
+['E', 'D', 'F', 'W', 'Y']
+161
+107
+0.000148057937622
+Depth First Search
+['E', 'Z', 'G', 'O', 'V', 'L', 'K', 'M', 'Y']
+29
+20
+2.59876251221e-05
+Iterative Deeping
+['E', 'D', 'F', 'W', 'Y']
+422
+11
+0.000226974487305
+Breadth First Search
+['U', 'O']
+3
+1
+5.00679016113e-06
+Depth First Search
+['U', 'O']
+3
+1
+4.05311584473e-06
+Iterative Deeping
+['U', 'O']
+3
+3
+6.19888305664e-06
+Breadth First Search
+['O', 'D', 'Q', 'K']
+44
+30
+4.10079956055e-05
+Depth First Search
+['O', 'T', 'D', 'M', 'G', 'Z', 'K']
+23
+15
+2.00271606445e-05
+Iterative Deeping
+['O', 'D', 'Q', 'K']
+86
+9
+6.19888305664e-05
+Breadth First Search
+['O', 'Q', 'B']
+27
+20
+2.50339508057e-05
+Depth First Search
+['O', 'U', 'V', 'N', 'G', 'T', 'Z', 'S', 'R', 'W', 'L', 'E', 'M', 'J', 'F', 'B']
+55
+37
+5.29289245605e-05
+Iterative Deeping
+['O', 'Q', 'B']
+38
+8
+3.38554382324e-05
+Breadth First Search
+['A', 'Q', 'Z']
+6
+3
+9.05990600586e-06
+Depth First Search
+['A', 'F', 'L', 'Z']
+14
+5
+1.19209289551e-05
+Iterative Deeping
+['A', 'Q', 'Z']
+11
+4
+1.19209289551e-05
+Breadth First Search
+['V', 'M', 'Z', 'C', 'F', 'T']
+1119
+740
+0.00110816955566
+Depth First Search
+['V', 'L', 'R', 'M', 'Z', 'O', 'N', 'T']
+35
+21
+3.69548797607e-05
+Iterative Deeping
+['V', 'M', 'Z', 'C', 'F', 'T']
+2458
+22
+0.00156903266907
+Breadth First Search
+['K', 'U']
+6
+1
+1.09672546387e-05
+Depth First Search
+['K', 'U']
+6
+1
+6.19888305664e-06
+Iterative Deeping
+['K', 'U']
+6
+6
+1.00135803223e-05
+Breadth First Search
+['O', 'H']
+2
+1
+5.00679016113e-06
+Depth First Search
+['O', 'H']
+2
+1
+2.86102294922e-06
+Iterative Deeping
+['O', 'H']
+2
+2
+5.96046447754e-06
+Breadth First Search
+['J', 'F', 'Y', 'Q']
+69
+53
+5.98430633545e-05
+Depth First Search
+['J', 'X', 'V', 'P', 'G', 'B', 'L', 'U', 'A', 'M', 'N', 'F', 'W', 'Q']
+41
+28
+4.10079956055e-05
+Iterative Deeping
+['J', 'F', 'Y', 'Q']
+141
+6
+8.70227813721e-05
+Breadth First Search
+['D', 'C', 'H', 'V', 'E', 'K']
+244
+142
+0.000239133834839
+Depth First Search
+['D', 'W', 'L', 'O', 'Y', 'N', 'T', 'R', 'P', 'K']
+29
+19
+2.78949737549e-05
+Iterative Deeping
+['D', 'C', 'H', 'V', 'E', 'K']
+786
+16
+0.000395059585571
+Breadth First Search
+['E', 'A']
+2
+1
+4.05311584473e-06
+Depth First Search
+['E', 'A']
+2
+1
+1.90734863281e-06
+Iterative Deeping
+['E', 'A']
+2
+2
+5.96046447754e-06
+Breadth First Search
+['A', 'C', 'M', 'B', 'D']
+168
+116
+0.00014591217041
+Depth First Search
+['A', 'X', 'T', 'U', 'R', 'O', 'W', 'H', 'G', 'F', 'N', 'J', 'C', 'M', 'B', 'D']
+48
+29
+5.00679016113e-05
+Iterative Deeping
+['A', 'C', 'M', 'B', 'D']
+455
+12
+0.000221967697144
+Breadth First Search
+['S', 'W']
+6
+1
+7.15255737305e-06
+Depth First Search
+['S', 'W']
+6
+1
+4.05311584473e-06
+Iterative Deeping
+['S', 'W']
+6
+6
+9.05990600586e-06
+Breadth First Search
+['Q', 'S', 'X', 'A', 'E', 'V', 'F', 'J', 'Y']
+13172
+8007
+0.0213840007782
+Depth First Search
+['Q', 'S', 'L', 'Z', 'W', 'T', 'G', 'D', 'R', 'C', 'I', 'X', 'P', 'N', 'E', 'V', 'F', 'M', 'Y']
+49
+30
+5.69820404053e-05
+Iterative Deeping
+['Q', 'S', 'X', 'A', 'E', 'V', 'F', 'J', 'Y']
+35586
+17
+0.0233929157257
+Breadth First Search
+['N', 'T', 'Q', 'V', 'G', 'J']
+1554
+1157
+0.00138902664185
+Depth First Search
+['N', 'T', 'Z', 'W', 'L', 'O', 'V', 'R', 'J']
+37
+28
+3.50475311279e-05
+Iterative Deeping
+['N', 'T', 'Q', 'V', 'G', 'J']
+2817
+19
+0.00189900398254
+Breadth First Search
+['X', 'A', 'E', 'P', 'D']
+80
+56
+6.98566436768e-05
+Depth First Search
+['X', 'W', 'L', 'E', 'C', 'T', 'D']
+26
+16
+2.69412994385e-05
+Iterative Deeping
+['X', 'A', 'E', 'P', 'D']
+246
+6
+0.000111103057861
+Breadth First Search
+['A', 'Y', 'R', 'D']
+29
+21
+2.8133392334e-05
+Depth First Search
+['A', 'H', 'X', 'V', 'G', 'R', 'D']
+21
+11
+1.97887420654e-05
+Iterative Deeping
+['A', 'Y', 'R', 'D']
+71
+5
+4.10079956055e-05
+Breadth First Search
+['F', 'Q', 'Y']
+6
+4
+1.00135803223e-05
+Depth First Search
+['F', 'L', 'W', 'U', 'D', 'B', 'J', 'H', 'Z', 'G', 'Y']
+34
+19
+3.79085540771e-05
+Iterative Deeping
+['F', 'Q', 'Y']
+12
+3
+1.4066696167e-05
+Breadth First Search
+['Z', 'J']
+4
+1
+6.19888305664e-06
+Depth First Search
+['Z', 'J']
+4
+1
+5.00679016113e-06
+Iterative Deeping
+['Z', 'J']
+4
+4
+7.86781311035e-06
+Breadth First Search
+['C', 'G', 'Z', 'Q']
+54
+39
+5.31673431396e-05
+Depth First Search
+['C', 'R', 'L', 'X', 'U', 'T', 'N', 'Q']
+28
+17
+2.69412994385e-05
+Iterative Deeping
+['C', 'G', 'Z', 'Q']
+115
+6
+8.48770141602e-05
+Breadth First Search
+['E', 'C', 'S', 'H', 'J']
+110
+78
+0.000102996826172
+Depth First Search
+['E', 'O', 'N', 'U', 'M', 'K', 'J']
+38
+16
+5.29289245605e-05
+Iterative Deeping
+['E', 'C', 'S', 'H', 'J']
+322
+7
+0.000170946121216
+Breadth First Search
+['E', 'B', 'L']
+14
+9
+1.59740447998e-05
+Depth First Search
+['E', 'Q', 'I', 'N', 'B', 'L']
+23
+16
+2.09808349609e-05
+Iterative Deeping
+['E', 'B', 'L']
+24
+6
+2.38418579102e-05
+Breadth First Search
+['I', 'M', 'U', 'A']
+58
+41
+5.69820404053e-05
+Depth First Search
+['I', 'Z', 'O', 'T', 'J', 'G', 'N', 'R', 'W', 'V', 'F', 'U', 'A']
+44
+32
+4.48226928711e-05
+Iterative Deeping
+['I', 'M', 'U', 'A']
+121
+6
+9.3936920166e-05
+Breadth First Search
+['Y', 'V', 'P', 'G', 'D']
+114
+80
+0.000109910964966
+Depth First Search
+['Y', 'V', 'O', 'X', 'L', 'F', 'N', 'W', 'D']
+26
+16
+2.69412994385e-05
+Iterative Deeping
+['Y', 'V', 'P', 'G', 'D']
+241
+9
+0.00018310546875
+Breadth First Search
+['D', 'B', 'N', 'E']
+61
+41
+5.41210174561e-05
+Depth First Search
+['D', 'B', 'T', 'E']
+128471
+30
+0.24113202095
+Iterative Deeping
+['D', 'B', 'N', 'E']
+111
+11
+8.60691070557e-05
+Breadth First Search
+['E', 'R', 'M']
+14
+8
+1.59740447998e-05
+Depth First Search
+['E', 'G', 'X', 'M']
+13
+8
+1.19209289551e-05
+Iterative Deeping
+['E', 'R', 'M']
+22
+7
+2.21729278564e-05
+Breadth First Search
+['A', 'J', 'C', 'N']
+37
+26
+3.38554382324e-05
+Depth First Search
+['A', 'V', 'O', 'F', 'J', 'L', 'G', 'N']
+26
+17
+2.28881835938e-05
+Iterative Deeping
+['A', 'J', 'C', 'N']
+83
+7
+5.00679016113e-05
+Breadth First Search
+['F', 'P', 'I', 'H', 'L', 'Y', 'M']
+626
+405
+0.000581979751587
+Depth First Search
+['F', 'W', 'G', 'T', 'D', 'X', 'L', 'Z', 'N', 'Y', 'M']
+40
+27
+3.79085540771e-05
+Iterative Deeping
+['F', 'P', 'I', 'H', 'L', 'Y', 'M']
+2271
+15
+0.000941038131714
+Breadth First Search
+['S', 'U', 'D', 'G']
+54
+36
+4.81605529785e-05
+Depth First Search
+['S', 'O', 'D', 'G']
+12
+6
+1.00135803223e-05
+Iterative Deeping
+['S', 'U', 'D', 'G']
+99
+11
+7.20024108887e-05
+Breadth First Search
+['D', 'J', 'T']
+11
+7
+1.19209289551e-05
+Depth First Search
+['D', 'Z', 'T']
+14
+7
+1.09672546387e-05
+Iterative Deeping
+['D', 'J', 'T']
+20
+5
+1.69277191162e-05
+Breadth First Search
+['X', 'K']
+2
+1
+3.81469726562e-06
+Depth First Search
+['X', 'K']
+2
+1
+2.14576721191e-06
+Iterative Deeping
+['X', 'K']
+2
+2
+5.00679016113e-06
+Breadth First Search
+['V', 'E']
+5
+1
+5.96046447754e-06
+Depth First Search
+['V', 'E']
+5
+1
+5.00679016113e-06
+Iterative Deeping
+['V', 'E']
+5
+5
+7.86781311035e-06
+Breadth First Search
+['U', 'V', 'M', 'L', 'T', 'Z']
+311
+181
+0.000309944152832
+Depth First Search
+['U', 'V', 'N', 'E', 'B', 'I', 'D', 'G', 'O', 'L', 'T', 'Z']
+32
+18
+3.2901763916e-05
+Iterative Deeping
+['U', 'V', 'M', 'L', 'T', 'Z']
+807
+14
+0.00050687789917
+Breadth First Search
+['A', 'L']
+6
+1
+1.00135803223e-05
+Depth First Search
+['A', 'L']
+6
+1
+5.96046447754e-06
+Iterative Deeping
+['A', 'L']
+6
+6
+1.00135803223e-05
+Breadth First Search
+['V', 'U', 'X', 'A', 'C', 'Z']
+234
+155
+0.000218868255615
+Depth First Search
+['V', 'T', 'P', 'J', 'N', 'O', 'U', 'D', 'E', 'X', 'Q', 'S', 'W', 'Z']
+40
+27
+4.10079956055e-05
+Iterative Deeping
+['V', 'U', 'X', 'A', 'C', 'Z']
+694
+10
+0.000360012054443
+Breadth First Search
+['V', 'B', 'E']
+9
+6
+1.31130218506e-05
+Depth First Search
+['V', 'X', 'N', 'U', 'E']
+15
+11
+1.50203704834e-05
+Iterative Deeping
+['V', 'B', 'E']
+17
+4
+1.59740447998e-05
+Breadth First Search
+['L', 'N', 'A', 'D']
+43
+29
+4.29153442383e-05
+Depth First Search
+['L', 'T', 'B', 'R', 'F', 'N', 'W', 'V', 'X', 'U', 'Z', 'D']
+38
+25
+3.81469726562e-05
+Iterative Deeping
+['L', 'N', 'A', 'D']
+99
+6
+6.41345977783e-05
+Breadth First Search
+['H', 'P', 'A', 'F']
+28
+21
+5.19752502441e-05
+Depth First Search
+['H', 'X', 'L', 'K', 'U', 'R', 'F']
+14508
+31
+0.03116106987
+Iterative Deeping
+['H', 'P', 'A', 'F']
+73
+4
+4.10079956055e-05
