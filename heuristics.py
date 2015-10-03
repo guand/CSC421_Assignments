@@ -32,6 +32,8 @@ def greedyFirstSearch(graph, start, goal, heuristic):
 	frontier.put(start, 0)
 	previous = {}
 	previous[start] = None
+	counter = 1
+	space = 0
 	# if frontier isn't empty
 	while not frontier.empty():
 		current = frontier.get()
@@ -47,8 +49,10 @@ def greedyFirstSearch(graph, start, goal, heuristic):
 			 		heuristicValue = heuristicChebyshev(graph.getWeight(current), graph.getWeight(goal))
 				priority = heuristicValue
 				frontier.put(next, priority)
+				counter = counter + 1
 				previous[next] = current
-	return previous
+			space = max(space, frontier.size())
+	return previous, counter, space
 
 
 
@@ -64,6 +68,8 @@ def aStarSearch(graph, start, goal, heuristic):
 	currentCost = {}
 	previous[start] = None
 	currentCost[start] = 0
+	counter = 1
+	space = 0
 	# while frontier is not empty
 	while not frontier.empty():
 		current = frontier.get()
@@ -85,7 +91,9 @@ def aStarSearch(graph, start, goal, heuristic):
 			 	# add path with it's priority
 			 	frontier.put(next, priority)
 			 	previous[next] = current
-	return previous, currentCost
+			 	counter = counter + 1
+			 	space = max(space, frontier.size())
+	return previous, currentCost, counter, space
 
 ##
 # Reconstruct Path
